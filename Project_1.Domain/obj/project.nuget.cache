@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dR56QgnGk60UGUTZkm6668/UBUCpIZsRv8lqPjPazMV/snMWYvl+irj9ygwHngz43PgaZ0KKu/67p8SasFzYIg==",
+  "success": true,
+  "projectFilePath": "/home/devin/revature_dotnet/week_4/P1/Project_1.Domain/Project_1.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/devin/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/devin/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

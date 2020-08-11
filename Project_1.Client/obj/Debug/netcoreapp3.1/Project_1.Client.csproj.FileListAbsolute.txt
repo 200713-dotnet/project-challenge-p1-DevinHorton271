@@ -74,3 +74,4 @@
 /home/devin/revature_dotnet/week_4/P1/Project_1.Client/obj/Debug/netcoreapp3.1/Razor/Views/Order/Order.cshtml.g.cs
 /home/devin/revature_dotnet/week_4/P1/Project_1.Client/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
 /home/devin/revature_dotnet/week_4/P1/Project_1.Client/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/home/devin/revature_dotnet/week_4/P1/Project_1.Client/obj/Debug/netcoreapp3.1/Razor/Views/Order/Thanks.cshtml.g.cs

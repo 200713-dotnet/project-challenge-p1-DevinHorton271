@@ -28,20 +28,20 @@ namespace Project_1.Client
             services.AddControllersWithViews();
             services.AddDbContext<Project_1DbContext>(options =>
             {
-              options.UseSqlServer(Configuration.GetConnectionString("mssql")); //recommended
-              //options.UseSqlServer(Configuration["dataconnect:mssql:dev"]); //all other configurations
+                options.UseSqlServer(Configuration.GetConnectionString("mssql")); //recommended
+                                                                                  //options.UseSqlServer(Configuration["dataconnect:mssql:dev"]); //all other configurations
             });
             services.AddCors(options =>
             {
-              options.AddDefaultPolicy(poli =>
-              {
-                poli.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-              });
+                options.AddDefaultPolicy(poli =>
+                {
+                    poli.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                });
 
-              options.AddPolicy("private", poli =>
-              {
-                poli.WithOrigins("microsoft.com").WithMethods("get", "post").WithHeaders("content-type");
-              });
+                options.AddPolicy("private", poli =>
+                {
+                    poli.WithOrigins("microsoft.com").WithMethods("get", "post").WithHeaders("content-type");
+                });
             });
         }
 
@@ -66,6 +66,10 @@ namespace Project_1.Client
             app.UseRouting();
 
             app.UseAuthorization();
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapControllers();
+            // });
 
             app.UseEndpoints(endpoints =>
             {
